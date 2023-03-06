@@ -80,6 +80,7 @@ li {
     flex-direction: column;
     align-items: center;
     padding: 0px 120px;
+    margin-bottom: 48px;
 }
 
 .information-header {
@@ -124,12 +125,49 @@ li {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;   
-    margin: 0px;
+    width: 500px;
+    margin: auto;
 }
 
 .signature {
     margin: 0px;
     font-weight: bold;
     text-align: right;
-    padding-right: 60px;
+    padding-right: 96px;
+}
+
+.fourth-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 48px auto;
+
+    background-color: #3882F6;
+    width: 600px;
+    padding: 24px 96px;
+    border-radius: 8px;
+}
+
+.fourth-left {
+    color: #E5E7EB;
+}
+
+.action-text {
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.action-signup {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.signup-2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-color: #E5E7EB;
+    border-radius: 4px;
+    border-style: solid;
 }
