@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 ul {
@@ -118,15 +119,14 @@ li {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 80px 320px;
+    padding: 80px 160px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;   
-    width: 500px;
-    margin: auto;
+    color: #1f2937;
+    margin: 0px;
 }
 
 .signature {
@@ -170,4 +170,15 @@ li {
     border-color: #E5E7EB;
     border-radius: 4px;
     border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 16px;
+}
+
+.copyright {
+    color: #E5E7EB;
 }
