@@ -112,3 +112,24 @@ li {
     border-color: #3882F6;
     border-radius: 8px;
 }
+
+.third-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 320px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;   
+    margin: 0px;
+}
+
+.signature {
+    margin: 0px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 60px;
+}
